@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jikan API</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section class="main">
+        <div class="searchinput">
+            <input type="text" placeholder="Search" id="searchinp" list="history">
+            <datalist id="history">
+                <option value="Naruto"></option>
+                <option value="Cowboy"></option>
+            </datalist>
+
+            <div class="btns">
+                <button onclick="controller.filterBtnFunc()">Search</button>
+                <button onclick="controller.clearBtnFunc()">Clear</button>
+            </div>
+        </div>
+        <div class="cardsarea">
+
+        </div>
+
+    </section>
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content" style="border-radius: 10px;">
+            <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'"
+                    class="w3-button w3-display-topright" style="border-radius: 10px;">&times;</span>
+                <p id="description"></p>
+                <p id="rating"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardbody {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    border: 4px solid cadetblue;
+    width: 220px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: #fff;
+}
+
+.cardbody h1 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.cardbody img {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background: #1b1b1b;
+}
+
+.cardsarea {
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 19px 30px 0px rgba(181, 181, 181, 0.75);
+    -webkit-box-shadow: 0px 19px 30px 0px rgba(181, 181, 181, 0.75);
+    -moz-box-shadow: 0px 19px 30px 0px rgba(181, 181, 181, 0.75);
+    margin-bottom: 50px;
+    border-radius: 0 0 15px 15px;
+}
+
+.searchinput {
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: 0px 5px 30px 0px rgba(181, 181, 181, 0.75);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(181, 181, 181, 0.75);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(181, 181, 181, 0.75);
+    margin-top: 50px;
+    border-radius: 15px 15px 0 0;
+    gap: 10px;
+}
+
+#searchinp {
+    outline: 0;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: cadetblue;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 80px;
+    transition: all 200ms ease;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    transform: scale(1.1);
+}
+
+#showbtn {
+    color: #fff;
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-weight: bolder;
+}
+
+#showbtn:hover {
+    color: cadetblue;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.w3-container {
+    padding: 50px;
+    font-size: 17px
+}
